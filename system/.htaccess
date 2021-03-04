@@ -1,0 +1,12 @@
+RewriteEngine on
+
+RewriteCond $1 !^(index\.php|resources|robots\.txt)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L,QSA]
+
+Router:
+$route['default_controller'] = 'welcome';
+
+$route['404_override'] = '';
+$route['translate_uri_dashes'] = FALSE;

@@ -37,6 +37,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<link href="<?php echo base_url() ?>assets/css/popuo-box.css" rel="stylesheet" type="text/css" media="all" />
 	<!-- //pop-ups-->
 	<link href="<?php echo base_url() ?>//fonts.googleapis.com/css?family=Montserrat:300,400,500" rel="stylesheet">
+	
+	<!--login-->
+	<link href="<?php echo base_url() ?>assets/css/login.css" rel='stylesheet' type='text/css' media="all">
+
 
 </head>
 
@@ -61,11 +65,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<nav>
 							<ul class="nav navbar-nav">
 								<li><a href="<?= base_url('index.php/Welcome/index'); ?>">Home</a></li>
-								<li><a href="<?= base_url() ?>index.php/Team/index"  class="scroll">Our Team</a></li>
-								<li><a href="#services" class="scroll">Services</a></li>
+								
+								<li><a href="<?= base_url('index.php/Team/index'); ?>">Our Team</a></li>
+								<li><a href="<?= base_url('index.php/Services/index'); ?>" class="scroll">Services</a></li>
 								<li><a href="#gallery" class="scroll">Katalog</a></li>
-								<li><a href="#contact" class="scroll">Contact</a></li>
-								<li><a href="#testimonials" class="scroll">Login</a></li>
+								<li><a href="<?= base_url('index.php/Login/index'); ?>">Login</a></li>
 							</ul>
 						</nav>
 					</div>

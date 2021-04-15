@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Team extends CI_Controller {
+class Services extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -21,7 +21,7 @@ class Team extends CI_Controller {
 	public function index()
 	{
 		$this->load->view('template/header');	
-		$this->load->view('user/v_team');
+		$this->load->view('user/v_services');
 		$this->load->view('template/footer');	
 		
 	}

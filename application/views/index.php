@@ -10,6 +10,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <head>
 	<title>Klinik Sekar Satwa</title>
 
+	<link rel="icon" type="image/png" sizes="96x96" href="<?= base_url() ?>assets/images/logo3.png">
 	<!--meta tags -->
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -46,41 +47,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </head>
 
 <body>
-	<div class="header-outs">
-		<div class="header-w3layouts">
-			<!-- Navigation -->
-
-			<div class="header-bar">
-				<nav class="navbar navbar-default">
-					<div class="navbar-header navbar-left">
-						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-						<h1><a class="navbar-brand" href="index.html">SekarSatwa<span class="fa fa-paw" aria-hidden="true"></span></a></h1>
-					</div>
-					<!-- Collect the nav links, forms, and other content for toggling -->
-					<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
-						<nav>
-							<ul class="nav navbar-nav">
-								<li class="active"><a href="<?= base_url('index.php/Welcome/index'); ?>">Home</a></li>
-								<li><a href="<?= base_url() ?>index.php/Team/index"  class="scroll">Our Team</a></li>
-								<li><a href="#services" class="scroll">Services</a></li>
-								<li><a href="#gallery" class="scroll">Katalog</a></li>
-								<li><a href="<?= base_url() ?>index.php/Contact/index" class="scroll">Contact</a></li>
-								<li><a href="#testimonials" class="scroll">Login</a></li>
-							</ul>
-						</nav>
-					</div>
-				</nav>
-			</div>
-
-			<div class="clearfix"> </div>
-
-		</div>
-
 		<!-- Slideshow 4 -->
 		<div class="slider">
 			<div class="callbacks_container">
@@ -89,12 +55,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="slider-img">
 							<div class="container">
 								<div class="slider-info">
-									<h4> <span class="home-banner">O</span>ur <span class="home-banner">A</span>wesome <span class="home-banner">P</span>ets
+									<h4> <span class="home-banner">K</span>linik <span class="home-banner">H</span>ewan <span class="home-banner">S</span>ekar
+										<span<span class="home-banner">S</span>atwa
 										<span
 										    class="fa fa-paw paw-banner" aria-hidden="true"></span><span class="fa fa-paw paw-banner" aria-hidden="true"></span></h4>
-									<p>Quis autem vel eum iure reprehderit.</p>
+									<p></p>
 									<div class="outs_more-buttn">
-										<a href="#" data-toggle="modal" data-target="#myModal">Buy Now</a>
+										<a href="#" data-toggle="modal" data-target="#myModal">Reservasi Now</a>
 									</div>
 								</div>
 							</div>
@@ -104,12 +71,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="slider-img ">
 							<div class="container">
 								<div class="slider-info">
-									<h4><span class="home-banner">L</span>ovely And <span class="home-banner">C</span>ute <span class="home-banner">P</span>ets
+									<h4><span class="home-banner">P</span>et<span class="home-banner">&</span>Cares <span class="home-banner"></span>
 										<span
 										    class="fa fa-paw paw-banner" aria-hidden="true"></span><span class="fa fa-paw paw-banner" aria-hidden="true"></span> </h4>
-									<p>Quis autem vel eum iure reprehderit.</p>
+									<p></p>
 									<div class="outs_more-buttn">
-										<a href="#" data-toggle="modal" data-target="#myModal">Buy Now</a>
+										<a href="#" data-toggle="modal" data-target="#myModal">Reservasi Now</a>
 									</div>
 								</div>
 							</div>
@@ -387,7 +354,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="tab-1 resp-tab-content">
 						<div class="col-md-3 col-sm-3 col-xs-6 portfolio-grids">
 							<div class="gallery-grid">
-							<img src='assets/images/ig.png' data-big-src='assets/images/ig.png' class="img-responsive" alt=" " />
+							<img src='assets/images/gal1.jpg' data-big-src='assets/images/gal1.jpg' class="img-responsive" alt=" " />
 								<p style='opacity:0;display:none'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 							</div>
 						</div>
@@ -591,7 +558,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="testimonials" id="testimonials">
 		<div class="container">
 
-			<h3 class="title">Our Clients</h3>
+			<h3 class="title">Ulasan</h3>
 
 			<div class="carousel slide" data-ride="carousel" id="quote-carousel">
 				<!-- Bottom Carousel Indicators -->
@@ -612,9 +579,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<blockquote>
 							<div class="row">
 								<div class=" left-matter">
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-										aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo!</p>
-									<h5>--kelly ove</h5>
+									<p>Ntab<h5>--kelly ove</h5>
 								</div>
 
 
@@ -663,7 +628,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<h3 class="title clr">Contact</h3>
 			<div class=" col-md-8 col-sm-8 col-xs-7 contact-map">
 				<div class="map-grid">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.948805392833!2d-73.99619098458929!3d40.71914347933105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a27e2f24131%3A0x64ffc98d24069f02!2sCANADA!5e0!3m2!1sen!2sin!4v1479793484055"></iframe>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3949.982772222147!2d112.15901791432982!3d-8.103235783300644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e78ec7531504f87%3A0x2319f8069463bde9!2sKlinik%20hewan%20sekar%20satwa!5e0!3m2!1sid!2sid!4v1618146538892!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
 				</div>
 			</div>
@@ -768,7 +733,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</footer>
 
 	<!--js working-->
-	<script type='text/javascript' src='js/jquery-2.2.3.min.js'></script>
+	<script type='text/javascript' src='<?php echo base_url() ?>assets/js/jquery-2.2.3.min.js'></script>
 	<script src="<?php echo base_url() ?>assets/js/bootstrap.js"></script>
 	<!-- //js  working-->
 

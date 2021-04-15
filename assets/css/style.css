@@ -200,7 +200,7 @@ h1 a.navbar-brand span {
 /*-- //nav --*/
 
 /*-- //header --*/ 
-.header-outs{   background: url(../images/b1.jpg);
+.header-outs{   background: url(../images/g1.jpg);
 background-repeat: no-repeat;
     background-position: center;
 -webkit-background-size: cover;
@@ -1108,6 +1108,7 @@ padding:0px}
     font-size: 39px;
     color: #9e0022;
 }
+
 
 .copyright h4{
     font-size: 34px;

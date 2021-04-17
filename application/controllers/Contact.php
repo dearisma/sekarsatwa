@@ -25,5 +25,6 @@ class Contact extends CI_Controller {
 		
 		$this->load->view('template/footer');	
 		
+		//coba nih
 	}
 }

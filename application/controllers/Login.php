@@ -53,7 +53,7 @@ class Login extends CI_Controller {
 					'login' => TRUE,
 				);
 					$this->session->set_userdata('data_session', $array);
-					redirect('index.php', 'refresh');
+					redirect('index.php/admin/overview', 'refresh');
 				
 				
 			}else {

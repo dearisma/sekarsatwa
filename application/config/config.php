@@ -39,6 +39,7 @@ $config['base_url'] = "http://localhost/sekarsatwa/";
 */
 $config['index_page'] = '';
 
+
 /*
 |--------------------------------------------------------------------------
 | URI PROTOCOL

@@ -64,12 +64,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
 						<nav>
 							<ul class="nav navbar-nav">
-								<li><a href="<?= base_url('index.php/Welcome/index'); ?>">Home</a></li>
+								<li><a href="<?= base_url('Welcome/index'); ?>">Home</a></li>
 								
-								<li><a href="<?= base_url('index.php/Team/index'); ?>">Our Team</a></li>
-								<li><a href="<?= base_url('index.php/Services/index'); ?>" class="scroll">Services</a></li>
+								<li><a href="<?= base_url('Team/index'); ?>">Our Team</a></li>
+								<li><a href="<?= base_url('Services/index'); ?>" class="scroll">Services</a></li>
 								<li><a href="#gallery" class="scroll">Katalog</a></li>
-								<li><a href="<?= base_url('index.php/Login/index'); ?>">Login</a></li>
+								<li><a href="<?= base_url('Login/index'); ?>">Login</a></li>
 							</ul>
 						</nav>
 					</div>

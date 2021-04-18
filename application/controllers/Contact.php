@@ -27,5 +27,6 @@ class Contact extends CI_Controller {
 		
 		//coba lagi nih
 		//cobaaa mantab
+		//nyaw
 	}
 }

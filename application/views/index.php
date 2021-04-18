@@ -733,11 +733,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</footer>
 
 	<!--js working-->
-	<script type='text/javascript' src='<?php echo base_url() ?>assets/js/jquery-2.2.3.min.js'></script>
-	<script src="<?php echo base_url() ?>assets/js/bootstrap.js"></script>
+	<script type='text/javascript' src='<?php echo base_url() ?>js/jquery-2.2.3.min.js'></script>
+	<script src="<?php echo base_url() ?>js/bootstrap.js"></script>
 	<!-- //js  working-->
 
-	<script src="<?php echo base_url() ?>assets/js/responsiveslides.min.js"></script>
+	<script src="<?php echo base_url() ?>js/responsiveslides.min.js"></script>
 
 	<script>
 		// You can also use "$(window).load(function() {"
@@ -761,7 +761,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</script>
 	<!--// banner-->
 	<!--pop-up-box video-->
-	<script src="<?php echo base_url() ?>assets/js/jquery.magnific-popup.js" type="text/javascript"></script>
+	<script src="<?php echo base_url() ?>js/jquery.magnific-popup.js" type="text/javascript"></script>
 	<script>
 		$(document).ready(function () {
 			$('.popup-with-zoom-anim').magnificPopup({
@@ -781,12 +781,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<!-- //pop-up-box video -->
 
 	<!-- script for portfolio -->
-	<script type='text/javascript' src='<?php echo base_url() ?>assets/js/jquery.easy-gallery.js'></script>
+	<script type='text/javascript' src='<?php echo base_url() ?>js/jquery.easy-gallery.js'></script>
 	<script type='text/javascript'>
 		//init Gallery
 		$('.portfolio').easyGallery();
 	</script>
-	<script src="<?php echo base_url() ?>assets/js/easyResponsiveTabs.js" type="text/javascript"></script>
+	<script src="<?php echo base_url() ?>js/easyResponsiveTabs.js" type="text/javascript"></script>
 	<script type="text/javascript">
 		$(document).ready(function () {
 			$('#horizontalTab').easyResponsiveTabs({
@@ -798,8 +798,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</script>
 	<!-- //script for portfolio -->
 	<!-- start-smoth-scrolling -->
-	<script type="text/javascript" src="<?php echo base_url() ?>assets/js/move-top.js"></script>
-	<script type="text/javascript" src="<?php echo base_url() ?>assets/js/easing.js"></script>
+	<script type="text/javascript" src="<?php echo base_url() ?>js/move-top.js"></script>
+	<script type="text/javascript" src="<?php echo base_url() ?>js/easing.js"></script>
 	<script type="text/javascript">
 		jQuery(document).ready(function ($) {
 			$(".scroll").click(function (event) {

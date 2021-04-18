@@ -1,77 +1,84 @@
-<?php
-defined('BASEPATH') OR exit('No direct script access allowed');
-
-class Login extends CI_Controller {
-
-	/**
-	 * Index Page for this controller.
-	 *
-	 * Maps to the following URL
-	 * 		http://example.com/index.php/welcome
-	 *	- or -
-	 * 		http://example.com/index.php/welcome/index
-	 *	- or -
-	 * Since this controller is set as the default controller in
-	 * config/routes.php, it's displayed at http://example.com/
-	 *
-	 * So any other public methods not prefixed with an underscore will
-	 * map to /index.php/welcome/<method_name>
-	 * @see https://codeigniter.com/user_guide/general/urls.html
-	 */
-	public function __construct()
-	{
+<?php 
+ 
+class Login extends CI_Controller{
+ 
+	function __construct(){
 		parent::__construct();
-		//Do your magic here
-		$this->load->model('Login_model', 'lm');
-		date_default_timezone_set('Asia/Jakarta');
-	}
-	public function index()
-	{
-		// if ($this->session->userdata('data_session') != null) {
-		// 	redirect('Login/v_login', 'refresh');
-		// } else {
-			$this->load->view('Login/v_login');
-		// }
-	}
 	
-	public function proses_login()
-	{
-		$this->form_validation->set_rules('username', 'username', 'trim|required', array('required' => 'username harus diisi'));
-		$this->form_validation->set_rules('password', 'password', 'trim|required', array('required' => 'Password harus diisi'));
 		
-		if ($this->form_validation->run() == TRUE) {
-			$w = array(
-				'username' => $this->input->post('username'),
-				'password' => $this->input->post('password')
-			);
-			$cek = $this->lm->cek('admin', $w)->row();
-			if ($cek != null) {
+	}
+ 
+	function index(){
+		$this->load->view('v_login');
+	}
+ 
 
-				$array = array(
-					'username' => $cek->username,
-					'password' => $cek->password,
-					'login' => TRUE,
-				);
-					$this->session->set_userdata('data_session', $array);
-					redirect('index.php/admin/overview', 'refresh');
-				
-				
-			}else {
-				redirect('Login', 'refresh');
+	function aksi_login(){
+
+		// $this->form_validation->set_rules('username_user','Username','required');
+		// $this->form_validation->set_rules('password_user','Password','required');
+
+		// if ($this->form_validation->run() == FALSE) {
+
+		// 	redirect(base_url('login'));
+
+		// }
+		// else {
+
+
+		// 	$username_user = $this->input->post('username_user');
+		// 	$password_user = md5($this->input->post('password_user'));
+
+		// 	$this->m_login->CekLogin($username_user,$password_user);
+
+		// }
+		$username_user = $this->input->post('username_user');
+		$password_user = $this->input->post('password_user');
+		$this->form_validation->set_rules('username_user','Username','required');
+		$this->form_validation->set_rules('password_user','Password','required');
+
+		if ($this->form_validation->run() != FALSE) {
+			$where = array('username_user' => $username_user, 'password_user' => md5($password_user), 'id_user_group' => 1 );
+			$data = $this->m_hotel->edit_data($where, 'user');
+			$d = $this->m_hotel->edit_data($where, 'user')->row();
+			$cek = $data->num_rows();
+
+			if($cek > 0){
+				$session = array('id_user_group' => $d->id_user_group, 'nama_user' => $d->nama_user, 'status' => 'loginadmin');
+				$this->session->set_userdata($session);
+				redirect(base_url().'Admin');
 			}
-		}else {
-			redirect('Login', 'refresh');
+			else{
+				$where = array('username_user' => $username_user, 'password_user' => md5($password_user), 'id_user_group' => 2 );
+			$data = $this->m_hotel->edit_data($where, 'user');
+			$d = $this->m_hotel->edit_data($where, 'user')->row();
+			$cek = $data->num_rows();
+
+
+			if($cek > 0){
+				$session = array('id_user_group' => $d->id_user_group, 'nama_user' => $d->nama_user, 'status' => 'loginoperator');
+				$this->session->set_userdata($session);
+				redirect(base_url().'Operator');
+			}
+			else{
+				$this->session->set_flashdata('Alert', 'ih kamu mah');
+				redirect(base_url('login'));
+			}
+			}
+
+
 		}
+		else {
+				$this->session->set_flashdata('Alert', 'Anda Belum mengisi username atau Password');
+				redirect(base_url('login'));
+		}
+
+
 	}
-	
-	
-	
-	public function register()
-	{
-		
-		$this->load->view('Login/v_register');
-		
-		
+ 
+	function logout(){
+		$this->session->sess_destroy();
+		redirect(base_url('v_login'));
 	}
-	
+
 }

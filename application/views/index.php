@@ -1,9 +1,9 @@
-<!--A Design by W3layouts
+<!-- A Design by W3layouts
 Author: W3layout
 Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
--->
+ -->
 <!DOCTYPE html>
 <html lang="zxx">
 
@@ -61,7 +61,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										    class="fa fa-paw paw-banner" aria-hidden="true"></span><span class="fa fa-paw paw-banner" aria-hidden="true"></span></h4>
 									<p></p>
 									<div class="outs_more-buttn">
-										<a href="#" data-toggle="modal" data-target="#myModal">Reservasi Now</a>
+										<a href="<?= base_url('Login/index'); ?>" data-toggle="modal" data-target="#myModal">Reservasi Now</a>
 									</div>
 								</div>
 							</div>
@@ -76,7 +76,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										    class="fa fa-paw paw-banner" aria-hidden="true"></span><span class="fa fa-paw paw-banner" aria-hidden="true"></span> </h4>
 									<p></p>
 									<div class="outs_more-buttn">
-										<a href="#" data-toggle="modal" data-target="#myModal">Reservasi Now</a>
+										<a href="<?= base_url('Login/index'); ?>" data-toggle="modal" data-target="#myModal">Reservasi Now</a>
 									</div>
 								</div>
 							</div>
@@ -274,8 +274,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 					<div class=" white-shadow">
 						<h4>Grooming</h4>
-						<p>
-							tur aut.maiores alias consequatur .</p>
+						<p></p>
 						<div class="clearfix"> </div>
 					</div>
 				</div>
@@ -286,7 +285,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class=" white-shadow">
 						<h4>USG</h4>
 						<p>
-							tur aut.maiores alias consequatur .</p>
+							</p>
 						<div class="clearfix"> </div>
 					</div>
 				</div>
@@ -297,7 +296,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class=" white-shadow">
 						<h4>Penitipan Hewan</h4>
 						<p>
-							tur aut.maiores alias consequatur .</p>
+							</p>
 						<div class="clearfix"> </div>
 					</div>
 				</div>
@@ -307,7 +306,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 					<div class="white-shadow">
 						<h4>Pemeriksaan Laboratorium</h4>
-						<p>tur aut.maiores alias consequatur </p>
+						<p></p>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
@@ -317,7 +316,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 					<div class=" white-shadow">
 						<h4>Operasi</h4>
-						<p>tur aut.maiores alias consequatur .</p>
+						<p></p>
 						<div class="clearfix"> </div>
 					</div>
 				</div>
@@ -327,12 +326,43 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 					<div class=" white-shadow">
 						<h4>Vaksinasi</h4>
-						<p>tur aut.maiores alias consequatur
+						<p>
 						</p>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
 				<div class="clearfix"> </div>
+				
+				<div class="col-md-4 col-sm-6 col-xs-6  its-banner-grid">
+					<div class=" left-icon-grid">
+						<span class="fa fa-smile-o banner-icon" aria-hidden="true"></span>
+					</div>
+					<div class="white-shadow">
+						<h4>Sterillisasi </h4>
+						<p></p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-4 col-sm-6 col-xs-6  its-banner-grid">
+					<div class=" left-icon-grid">
+						<span class="fa fa-commenting-o banner-icon" aria-hidden="true"></span>
+					</div>
+					<div class="white-shadow">
+						<h4>Konsultasi </h4>
+						<p></p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-4 col-sm-6 col-xs-6  its-banner-grid">
+					<div class=" left-icon-grid">
+						<span class="fa fa-user-md banner-icon" aria-hidden="true"></span>
+					</div>
+					<div class="white-shadow">
+						<h4>Scalling Gigi Anjing </h4>
+						<p></p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -495,15 +525,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<!--price table-->
 	<div class="price-table" id="price">
 		<div class="container">
-			<h3 class="title clr ">Price-Table</h3>
+			<h3 class="title clr ">Price</h3>
 
 			<div class="agileits-banner-grids text-center">
 
 				<div class="col-md-4  col-sm-4  col-xs-4 clr1 agileits-banner-grid">
 
-					<h4>Lorem ipsum</h4>
+					<h4>Grooming</h4>
 					<div class="table_cost">
-						<span class="cost clr-price"> 260$</span>
+						
 					</div>
 					<div class="list-price">
 						<ul>
@@ -733,11 +763,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</footer>
 
 	<!--js working-->
-	<script type='text/javascript' src='<?php echo base_url() ?>js/jquery-2.2.3.min.js'></script>
-	<script src="<?php echo base_url() ?>js/bootstrap.js"></script>
+	<script type='text/javascript' src='<?php echo base_url() ?>assets/js/jquery-2.2.3.min.js'></script>
+	<script src="<?php echo base_url() ?>assets/js/bootstrap.js"></script>
 	<!-- //js  working-->
 
-	<script src="<?php echo base_url() ?>js/responsiveslides.min.js"></script>
+	<script src="<?php echo base_url() ?>assets/js/responsiveslides.min.js"></script>
 
 	<script>
 		// You can also use "$(window).load(function() {"
@@ -761,7 +791,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</script>
 	<!--// banner-->
 	<!--pop-up-box video-->
-	<script src="<?php echo base_url() ?>js/jquery.magnific-popup.js" type="text/javascript"></script>
+	<script src="<?php echo base_url() ?>assets/js/jquery.magnific-popup.js" type="text/javascript"></script>
 	<script>
 		$(document).ready(function () {
 			$('.popup-with-zoom-anim').magnificPopup({
@@ -781,12 +811,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<!-- //pop-up-box video -->
 
 	<!-- script for portfolio -->
-	<script type='text/javascript' src='<?php echo base_url() ?>js/jquery.easy-gallery.js'></script>
+	<script type='text/javascript' src='<?php echo base_url() ?>assets/js/jquery.easy-gallery.js'></script>
 	<script type='text/javascript'>
 		//init Gallery
 		$('.portfolio').easyGallery();
 	</script>
-	<script src="<?php echo base_url() ?>js/easyResponsiveTabs.js" type="text/javascript"></script>
+	<script src="<?php echo base_url() ?>assets/js/easyResponsiveTabs.js" type="text/javascript"></script>
 	<script type="text/javascript">
 		$(document).ready(function () {
 			$('#horizontalTab').easyResponsiveTabs({
@@ -798,8 +828,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</script>
 	<!-- //script for portfolio -->
 	<!-- start-smoth-scrolling -->
-	<script type="text/javascript" src="<?php echo base_url() ?>js/move-top.js"></script>
-	<script type="text/javascript" src="<?php echo base_url() ?>js/easing.js"></script>
+	<script type="text/javascript" src="<?php echo base_url() ?>assets/js/move-top.js"></script>
+	<script type="text/javascript" src="<?php echo base_url() ?>assets/js/easing.js"></script>
 	<script type="text/javascript">
 		jQuery(document).ready(function ($) {
 			$(".scroll").click(function (event) {

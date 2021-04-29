@@ -41,6 +41,10 @@ class M_hotel extends CI_Model{
 	function KelasKamar () {
 		return $this->db->query("select * from kelas_kamar order by id_kelas_kamar");
 	}
+	
+	function dokter () {
+		return $this->db->query("select * from dokter order by id_dokter");
+	}
 
 	function KamarId($id_kamar) {
 	 	return $this->db->query("select a.*,b.* from kamar a join kelas_kamar b on a.id_kelas_kamar=b.id_kelas_kamar where a.id_kamar='$id_kamar'");

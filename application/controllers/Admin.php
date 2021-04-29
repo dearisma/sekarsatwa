@@ -350,7 +350,20 @@ class Admin extends CI_Controller{
 		$data['kelas_kamar'] = $this->m_hotel->get_data('kelas_kamar')->result();
 		$this->load->view('admin/kamar_kelas.php', $data);
 	}
+	
+	function rekam_medis(){
 
+		$data['kelas_kamar'] = $this->m_hotel->get_data('kelas_kamar')->result();
+		$this->load->view('admin/rekam_medis.php', $data);
+	}
+	function dokter(){
+
+		$data['dokter'] = $this->m_hotel->get_data('dokter')->result();
+		$this->load->view('admin/dokter.php', $data);
+	}
+	function dokter_tambah(){
+		$this->load->view('admin/dokter_tambah.php');
+	}
 	function kamar_kelas_tambah(){
 		$this->load->view('admin/kamar_kelas_tambah.php');
 	}

@@ -6,6 +6,18 @@
             <span>SISTEM RESERVASI</span>
         </a>
     </li>
+    <li class="nav-item <?php echo $this->uri->segment(2) == '' ? 'active': '' ?>">
+        <a class="nav-link" href="<?php echo site_url('admin/rekam_medis') ?>">
+            <i class="fas fa-fw fa-tachometer-alt"></i>
+            <span>REKAM MEDIS</span>
+        </a>
+    </li>
+    <li class="nav-item <?php echo $this->uri->segment(2) == '' ? 'active': '' ?>">
+        <a class="nav-link" href="<?php echo site_url('admin/dokter') ?>">
+            <i class="fas fa-fw fa-tachometer-alt"></i>
+            <span>DOKTER</span>
+        </a>
+    </li>
 
     <li class="nav-item dropdown <?php echo $this->uri->segment(2) == 'products' ? 'active': '' ?>">
         <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"

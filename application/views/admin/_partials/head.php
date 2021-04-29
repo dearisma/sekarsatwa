@@ -14,7 +14,7 @@
 <link href="<?php echo base_url('assets/datatables/dataTables.bootstrap4.css') ?>" rel="stylesheet">
 
 <!-- Custom styles for this template-->
-<link href="<?php echo base_url('css/sb-admin.css') ?>" rel="stylesheet">
+<link href="<?php echo base_url('assets/css/sb-admin.css') ?>" rel="stylesheet">
 
 <link rel="stylesheet" type="text/css" href="<?php echo base_url().'asset/dist/summernote.css'?>">
 

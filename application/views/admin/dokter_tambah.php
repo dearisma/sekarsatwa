@@ -23,24 +23,11 @@
 
           <div class="card-body">
             <div class="table-responsive">
-              <form method="post" action="<?php echo base_url().'admin/dokter_tambah_aksi'; ?>">
+              <form method="post" action="<?php echo base_url().'admin/kamar_kelas_tambah_aksi'; ?>">
                   <div class="form-group">
                     <label class="control-label col-md-3">Kelas Kamar</label>
                        <div class="col-md-9">
-                            <input type="text" class="form-control" placeholder="" name="username">
-                        </div>
-                        <div class="col-md-9">
-                            <input type="text" class="form-control" placeholder="" name="password">
-                        </div>
-                        <div class="col-md-9">
-                            <input type="text" class="form-control" placeholder="" name="nama">
-                        </div>
-                        <div class="col-md-9">
-                            <input type="text" class="form-control" placeholder="" name="alumni">
-                        </div>
-                        
-                        <div class="col-md-9">
-                            <input type="text" class="form-control" placeholder="" name="foto">
+                            <input type="text" class="form-control" placeholder="" name="nama_kelas_kamar">
                         </div>
                   </div>
                   <div class="form-group">

@@ -555,72 +555,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</div>
 	<!--//price table-->
 	<!-- testimonials -->
-	<div class="testimonials" id="testimonials">
-		<div class="container">
-
-			<h3 class="title">Ulasan</h3>
-
-			<div class="carousel slide" data-ride="carousel" id="quote-carousel">
-				<!-- Bottom Carousel Indicators -->
-				<ol class="carousel-indicators">
-					<li data-target="#quote-carousel" data-slide-to="0" class="active"><img class="img-responsive " src="images/t1.jpg" alt="">
-					</li>
-					<li data-target="#quote-carousel" data-slide-to="1"><img class="img-responsive" src="images/t2.jpg" alt="">
-					</li>
-					<li data-target="#quote-carousel" data-slide-to="2"><img class="img-responsive" src="images/t3.jpg" alt="">
-					</li>
-				</ol>
-
-				<!-- Carousel Slides / Quotes -->
-				<div class="carousel-inner text-center">
-
-					<!-- Quote 1 -->
-					<div class="item active">
-						<blockquote>
-							<div class="row">
-								<div class=" left-matter">
-									<p>Ntab<h5>--kelly ove</h5>
-								</div>
-
-
-							</div>
-						</blockquote>
-					</div>
-					<!-- Quote 2 -->
-					<div class="item">
-						<blockquote>
-							<div class="row">
-								<div class=" left-matter">
-
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-										aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo </p>
-									<h5>--Kennedy</h5>
-								</div>
-							</div>
-						</blockquote>
-					</div>
-					<!-- Quote 3 -->
-					<div class="item">
-						<blockquote>
-							<div class="row">
-								<div class=" left-matter">
-
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-										aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo </p>
-									<h5>--Rosey</h5>
-								</div>
-							</div>
-						</blockquote>
-					</div>
-				</div>
-
-				<!-- Carousel Buttons Next/Prev 
-					<a data-slide="prev" href="#quote-carousel" class="left carousel-control"><span class="fa fa-chevron-left"></span></a>
-					<a data-slide="next" href="#quote-carousel" class="right carousel-control"><span class="fa fa-chevron-right"></span></a> -->
-			</div>
-		</div>
-	</div>
-	<!-- testimonials -->
+	
 
 	<!--contact-->
 	<div class="contact" id="contact">
@@ -655,82 +590,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 			<div class="clearfix"> </div>
 
-			<div class="contact-us">
-				<form action="#" method="post">
-					<div class="col-md-6 col-sm-6 col-xs-6 styled-input">
-						<input type="text" name="Name" placeholder="Name" required="">
-					</div>
-					<div class="col-md-6 col-sm-6 col-xs-6 styled-input">
-						<input type="text" name="Last Name" placeholder="Last Name" required="">
-					</div>
+			
 
-					<div class="col-md-6 col-sm-6 col-xs-6 styled-input">
-						<input type="email" name="Email" placeholder="Email" required="">
-
-					</div>
-
-					<div class="col-md-6 col-sm-6 col-xs-6 styled-input">
-
-						<input type="text" name="phone" placeholder="phone" required="">
-
-					</div>
-					<div class="clearfix"> </div>
-					<div class="styled-input">
-
-						<textarea name="Message" placeholder="Message" required=""></textarea>
-					</div>
-					<div>
-						<div class="click">
-							<input type="submit" value="SEND">
-						</div>
-					</div>
-				</form>
-			</div>
-
-			<div class="clearfix"> </div>
-		</div>
-	</div>
-	<div class="buttom-w3">
-		<div class="container">
-			<div class="col-md-4 bottom-head text-center">
-				<h4><a href="index.html">LOVELY-PETS</a></h4>
-				<div class="pet-cat">
-					<p>Care Pets</p>
-				</div>
-			</div>
-			<div class="col-md-4 copyright text-center">
-				<div class="">
-					<h4> About Us</h4>
-				</div>
-				<div class="sub-para">
-					<p>Lorem ipsum dolor sit amet,dolor sit amet,iste natus error sit voluptatem</p>
-				</div>
+			
+						
 				
 			</div>
-			<div class="col-md-4 letter-sub text-center">
-
-				<div class="post">
-					<form action="#" method="post">
-
-						<div class="letter">
-							<input class="email" type="email" placeholder="Your email..." required="">
-						</div>
-						<div class="newsletter">
-							<input type="submit" value="Subscribe">
-						</div>
-					</form>
-				</div>
-				<div class="sub-para">
-					<p>Lorem ipsum dolor sit amet,dolor sit amet,iste natus error sit voluptatem</p>
-				</div>
-			</div>
 			<div class="clearfix"> </div>
 		</div>
 
-	</div>
-	<footer>
-		<p>&copy; 2018 Lovely-Pets. All Rights Reserved | Design by <a href="http://w3layouts.com/" target="_blank"> W3layouts </a></p>
-	</footer>
 
 	<!--js working-->
 	<script type='text/javascript' src='<?php echo base_url() ?>js/jquery-2.2.3.min.js'></script>
